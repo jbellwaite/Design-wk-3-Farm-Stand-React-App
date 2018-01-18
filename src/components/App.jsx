@@ -1,12 +1,12 @@
 import React from 'react';
-import TestListComponent from './TestListComponent';
-import TestHeaderComponent from './TestHeaderComponent';
+import MarketSchedule from './MarketSchedule';
+import AvailableProduce from './AvailableProduce';
 
 function App(){
   return (
     <div>
-      <TestHeaderComponent/>
-      <TestListComponent />
+      <MarketSchedule/>
+      <AvailableProduce/>
     </div>
   );
 }
